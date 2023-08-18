@@ -12,12 +12,10 @@ namespace CRUDBasic.Controllers
     public class BookController : ControllerBase
     {
         private readonly IBookService _bookService;
-        private readonly DataContext _context;
 
-        public BookController(IBookService bookService, DataContext context)
+        public BookController(IBookService bookService)
         {
             _bookService = bookService;
-            _context = context;
         }
 
         [HttpGet("GetAllBooks")]

@@ -1,4 +1,12 @@
 # CRUD Basic with Book Library Management
+
+## The APIs in the project
+* Get all books (**GET**)
+* Get a book by Id (**GET**)
+* Create a book (**POST**)
+* Update a book with PUT method (**PUT**)
+* Update a book with PATCH method (**PATCH**)
+* Delete a book by Id (**DELETE**)
 ## The used packages
 ```cs
 Microsoft.EntityFrameworkCore
@@ -10,6 +18,7 @@ Microsoft.AspNetCore.JsonPatch
 Microsoft.AspNetCore.Mvc.NewtonSoftJson
 Swashbuckle.AspNetCore.NewtonSoft
 ```
+
 
 ## Install & Run
 
