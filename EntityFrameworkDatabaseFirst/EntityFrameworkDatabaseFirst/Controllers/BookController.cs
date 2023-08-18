@@ -17,7 +17,7 @@ namespace EntityFrameworkDatabaseFirst.Controllers
             _context = context;
         }
 
-        [HttpGet("")]
+        [HttpGet("GetAllBooks")]
         public async ValueTask<IActionResult> GetAllBooks()
         {
             var books = await _bookService.GetAllBooksAsync();

@@ -1,9 +1,9 @@
 # Send an Email via SMTP with MailKit
 ## Install & Run
 ### Config info EmailSettings
-To run the project, you need to provide the following information in the appsettings.json file.
+To run the project, you need to provide the following information in the **appsettings.json** file.
 
-```xml
+```cs
 "EmailSettings": {
     "Email": "Your Email",
     "AppPassword": "Your AppPassword",
@@ -12,8 +12,9 @@ To run the project, you need to provide the following information in the appsett
     "Port": 587
 }
 ```
-### Go to SendEmail project in "SendEmail"
+### **Go to SendEmail project in "SendEmail"**
 Run API
-```xml
-dotnet run build
+>run
+```sh
+dotnet run
 ```

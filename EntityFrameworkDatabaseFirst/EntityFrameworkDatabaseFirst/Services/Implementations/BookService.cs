@@ -15,7 +15,7 @@ namespace EntityFrameworkDatabaseFirst.Services.Implementations
         }
         public async ValueTask<IEnumerable<Book>> GetAllBooksAsync()
         {
-            var books = await _context.Books.ToListAsync();
+            var books = await _context.Books.Where(b => b.IsDeleted == false && b.IsPublished == true).ToListAsync();
             return books;
         }
     }
