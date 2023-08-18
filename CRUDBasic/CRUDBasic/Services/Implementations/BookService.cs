@@ -79,7 +79,7 @@ namespace CRUDBasic.Services.Implementations
             {
                 throw new Exception();
             }
-            _context.Books.Remove(book);
+            book.IsDeleted = true;
             return await _context.SaveChangesAsync() > 0;
         }
 
