@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatchAPI", "PatchAPI\PatchAPI.csproj", "{522320D5-DC0E-447F-B829-11CD2CA6061D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{522320D5-DC0E-447F-B829-11CD2CA6061D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{522320D5-DC0E-447F-B829-11CD2CA6061D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{522320D5-DC0E-447F-B829-11CD2CA6061D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{522320D5-DC0E-447F-B829-11CD2CA6061D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D23DD836-E0AE-4FD2-A829-11FD2167E7D2}
+	EndGlobalSection
+EndGlobal

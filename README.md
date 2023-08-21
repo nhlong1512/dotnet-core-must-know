@@ -1,5 +1,5 @@
 # .NET Core Must Know 🔥🔥
-This project is aimed at consolidating the fundamental knowledge that a .NET Core API developer needs🚀🚀. I've implemented it as a collection of small projects, and all you need to do is clone it and run. Please provide feedback if you notice anything that can be improved in this project. I would greatly appreciate hearing from you✨✨.
+This project aims to consolidate the fundamental knowledge required for a .NET Core API developer 🚀🚀. I've structured it as a collection of small projects, and all you need to do is clone it and run. If you notice any areas that could be improved in this project, please provide feedback. Your insights are greatly appreciated! ✨✨.
 
 ## Contents
 * [General](https://github.com/nhlong1512/dotnet-core-must-know)

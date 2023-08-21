@@ -7,14 +7,14 @@ Microsoft.EntiryFrameworkCore.SqlSever
 Microsoft.EntityFrameworkCore.Tools
 ```
 
-## Install & Run
+## Installation & Run
 
-### Setup database
+### Database Setup
 
-Open the file **BookLibrary.sql** and run it to create the database for database-first 
+Open the file `BookLibrary.sql` and run it to create the database for database-first 
 
 ### Go to EntityFrameworkDatabaseFirst project
-Open **Package Manager Console** and run: 
+Open `Package Manager Console` and run:
 >run
 ```sh
 Scaffold-DbContext [-Connection] [-Provider] [-OuputDir] [-Context] [-Schemas>] [-Tables>] [-DataAnnotations] [-Force] [-Project] [-StartupProject] [<CommonParameters>]

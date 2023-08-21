@@ -1,7 +1,7 @@
-# Send an Email via SMTP with MailKit
-## Install & Run
-### Config info EmailSettings
-To run the project, you need to provide the following information in the **appsettings.json** file.
+# Sending an Email via SMTP with MailKit
+## Installation & Run
+### Configure EmailSettings Information
+To run the project, you need to provide the following information in the `appsettings.json` file.
 
 ```cs
 "EmailSettings": {
@@ -12,7 +12,7 @@ To run the project, you need to provide the following information in the **appse
     "Port": 587
 }
 ```
-### **Go to SendEmail project in "SendEmail"**
+### Go to SendEmail project in "SendEmail"
 Run API
 >run
 ```sh
