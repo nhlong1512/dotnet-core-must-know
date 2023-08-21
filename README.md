@@ -18,8 +18,10 @@ This project aims to consolidate the fundamental knowledge required for a .NET C
     * [Export/Generate Pdf](https://github.com/nhlong1512/dotnet-core-must-know/tree/main/ExportGeneratePdf)
     * [Logging Serilog](https://github.com/nhlong1512/dotnet-core-must-know/tree/main/LoggingSerilog)
 
-## Installation
+## ⚡ Installation
 >run 
 ```sh
 git clone https://github.com/nhlong1512/dotnet-core-must-know.git
 ```
+## 🛠️ Troubleshooting
+If you encounter errors, you can try delete the `obj` folder and `bin` folder in the project, and then run the `README.md` document again.

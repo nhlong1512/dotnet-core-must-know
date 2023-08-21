@@ -16,7 +16,7 @@ Swashbuckle.AspNetCore.NewtonSoft
 ```
 
 
-## Installation & Run
+## ⚡ Installation & Run
 
 ### Setup database
 
@@ -45,4 +45,5 @@ Scaffold-DbContext -Connection name=DefaultConnectionString Microsoft.EntityFram
 ```sh
 dotnet run
 ```
-
+## 🛠️ Troubleshooting
+If you encounter errors, you can try delete the `obj` folder and `bin` folder in the project, and then run the `README.md` document again.

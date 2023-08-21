@@ -1,5 +1,5 @@
 # Sending an Email via SMTP with MailKit
-## Installation & Run
+## ⚡ Installation & Run
 ### Configure EmailSettings Information
 To run the project, you need to provide the following information in the `appsettings.json` file.
 
@@ -18,3 +18,5 @@ Run API
 ```sh
 dotnet run
 ```
+## 🛠️ Troubleshooting
+If you encounter errors, you can try delete the `obj` folder and `bin` folder in the project, and then run the `README.md` document again.

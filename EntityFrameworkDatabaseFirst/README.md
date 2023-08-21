@@ -7,7 +7,7 @@ Microsoft.EntiryFrameworkCore.SqlSever
 Microsoft.EntityFrameworkCore.Tools
 ```
 
-## Installation & Run
+## ⚡ Installation & Run
 
 ### Database Setup
 
@@ -28,4 +28,5 @@ Scaffold-DbContext -Connection name=DefaultConnectionString Microsoft.EntityFram
 ```sh
 dotnet run
 ```
-
+## 🛠️ Troubleshooting
+If you encounter errors, you can try delete the `obj` folder and `bin` folder in the project, and then run the `README.md` document again.
