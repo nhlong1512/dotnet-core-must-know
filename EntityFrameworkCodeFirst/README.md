@@ -13,8 +13,8 @@ Microsoft.EntityFrameworkCore.Tools
 
 ### Setup database
 First, you need to create a database named `EntityFrameworkCodeFirst` and declare the `DefaultConnectionString`
-in the `appsetting.json` file. In my case:
->**appseting.json**
+in the `appsettings.json` file. In my case:
+>**appsetings.json**
 ```sh
 ...
 "ConnectionStrings": {

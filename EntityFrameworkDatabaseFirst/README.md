@@ -1,4 +1,6 @@
 # Entity Framework Database First
+## The APIs in the project
+* Get all books (**`GET`**)
 ## The used packages
 ```cs
 Microsoft.EntityFrameworkCore

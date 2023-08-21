@@ -3,6 +3,7 @@
 ### Configure EmailSettings Information
 To run the project, you need to provide the following information in the `appsettings.json` file.
 
+>**appsettings.json**
 ```cs
 "EmailSettings": {
     "Email": "Your Email",
