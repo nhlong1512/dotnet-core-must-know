@@ -4,8 +4,20 @@ This project is aimed at consolidating the fundamental knowledge that a .NET Cor
 ## Contents
 * [General](https://github.com/nhlong1512/dotnet-core-must-know)
     * [CRUD Basic](https://github.com/nhlong1512/dotnet-core-must-know/tree/main/CRUDBasic)
+    * [PatchAPI](https://github.com/nhlong1512/dotnet-core-must-know/tree/main/PatchAPI)
+    * [Upload File API](https://github.com/nhlong1512/dotnet-core-must-know/tree/main/UploadFileAPI)
     * [Entity Framework Database First](https://github.com/nhlong1512/dotnet-core-must-know/tree/main/EntityFrameworkDatabaseFirst)
+    * [Entity Framework Code First](https://github.com/nhlong1512/dotnet-core-must-know/tree/main/EntityFrameworkCodeFirst)
     * [Send Email With MailKit](https://github.com/nhlong1512/dotnet-core-must-know/tree/main/SendEmail)
+    * [Authentication](https://github.com/nhlong1512/dotnet-core-must-know/tree/main/Authentication)
+    * [Enable CORS](https://github.com/nhlong1512/dotnet-core-must-know/tree/main/EnableCORS)
+    * [Enable Rate Limiting](https://github.com/nhlong1512/dotnet-core-must-know/tree/main/EnableRateLimiting)
+    * [Repository Pattern](https://github.com/nhlong1512/dotnet-core-must-know/tree/main/RepositoryPattern)
+    * [UnitOfWork](https://github.com/nhlong1512/dotnet-core-must-know/tree/main/UnitOfWork)
+    * [Export/Generate Excel](https://github.com/nhlong1512/dotnet-core-must-know/tree/main/ExportGenerateExcel)
+    * [Export/Generate Pdf](https://github.com/nhlong1512/dotnet-core-must-know/tree/main/ExportGeneratePdf)
+    * [Logging Serilog](https://github.com/nhlong1512/dotnet-core-must-know/tree/main/LoggingSerilog)
+
 ## Installation
 >run 
 ```sh
