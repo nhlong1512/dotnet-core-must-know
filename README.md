@@ -12,7 +12,7 @@ This project aims to consolidate the fundamental knowledge required for a .NET C
     * [Authentication](https://github.com/nhlong1512/dotnet-core-must-know/tree/main/Authentication)
     * [Enable CORS](https://github.com/nhlong1512/dotnet-core-must-know/tree/main/EnableCORS)
     * [Enable Rate Limiting](https://github.com/nhlong1512/dotnet-core-must-know/tree/main/EnableRateLimiting)
-    * [Repository Pattern](https://github.com/nhlong1512/dotnet-core-must-know/tree/main/RepositoryPattern)
+    * [Repository Pattern](https://github.com/nhlong1512/dotnet-core-must-know/tree/main/RepositoryPatternCRUD)
     * [UnitOfWork](https://github.com/nhlong1512/dotnet-core-must-know/tree/main/UnitOfWork)
     * [Export/Generate Excel](https://github.com/nhlong1512/dotnet-core-must-know/tree/main/ExportGenerateExcel)
     * [Export/Generate Pdf](https://github.com/nhlong1512/dotnet-core-must-know/tree/main/ExportGeneratePdf)
