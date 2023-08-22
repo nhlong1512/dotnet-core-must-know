@@ -1,4 +1,5 @@
-﻿using RepositoryPatternCRUD.Data.Models;
+﻿using Microsoft.AspNetCore.JsonPatch;
+using RepositoryPatternCRUD.Data.Models;
 
 namespace RepositoryPatternCRUD.Repositories.Interfaces
 {
@@ -7,7 +8,7 @@ namespace RepositoryPatternCRUD.Repositories.Interfaces
         ValueTask<ICollection<Book>> GetAllBooksAsync();
         ValueTask<Book> GetBookByIdAsync(Guid bookId);
         ValueTask<Book> CreateBookAsync(Book book);
-        ValueTask<Book> UpdateBookAsync(Guid bookId, Book book);
-        ValueTask<bool> DeleteBookAsync(Guid bookId);
+        ValueTask<Book> UpdateBookByIdAsync(Guid bookId, Book book);
+        ValueTask<bool> DeleteBookByIdAsync(Guid bookId);
     }
 }

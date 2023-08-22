@@ -76,3 +76,8 @@ D:\NPVS\dotnet-core-must-know\RepositoryPatternCRUD\RepositoryPatternCRUD\obj\De
 D:\NPVS\dotnet-core-must-know\RepositoryPatternCRUD\RepositoryPatternCRUD\obj\Debug\net7.0\RepositoryPatternCRUD.pdb
 D:\NPVS\dotnet-core-must-know\RepositoryPatternCRUD\RepositoryPatternCRUD\obj\Debug\net7.0\RepositoryPatternCRUD.genruntimeconfig.cache
 D:\NPVS\dotnet-core-must-know\RepositoryPatternCRUD\RepositoryPatternCRUD\obj\Debug\net7.0\ref\RepositoryPatternCRUD.dll
+D:\NPVS\dotnet-core-must-know\RepositoryPatternCRUD\RepositoryPatternCRUD\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\NPVS\dotnet-core-must-know\RepositoryPatternCRUD\RepositoryPatternCRUD\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\NPVS\dotnet-core-must-know\RepositoryPatternCRUD\RepositoryPatternCRUD\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\NPVS\dotnet-core-must-know\RepositoryPatternCRUD\RepositoryPatternCRUD\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+D:\NPVS\dotnet-core-must-know\RepositoryPatternCRUD\RepositoryPatternCRUD\bin\Debug\net7.0\Swashbuckle.AspNetCore.Newtonsoft.dll

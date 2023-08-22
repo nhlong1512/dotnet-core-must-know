@@ -14,7 +14,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
-//builder.Services.AddControllers().AddNewtonsoftJson();
+builder.Services.AddControllers().AddNewtonsoftJson();
 builder.Services.AddTransient<IBookRepository, BookRepository>();
 builder.Services.AddTransient<IBookService, BookService>();
 builder.Services.AddDbContext<DataContext>(options =>

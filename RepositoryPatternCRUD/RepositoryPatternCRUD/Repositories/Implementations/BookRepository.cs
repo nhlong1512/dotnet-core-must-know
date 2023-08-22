@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.JsonPatch;
+using Microsoft.EntityFrameworkCore;
 using RepositoryPatternCRUD.Data;
 using RepositoryPatternCRUD.Data.Models;
 using RepositoryPatternCRUD.Dtos.RequestDtos;
@@ -38,15 +39,21 @@ namespace RepositoryPatternCRUD.Repositories.Implementations
             return book;
         }
 
-        //public async ValueTask<Book> UpdateBookAsync(Guid bookId, Book book)
-        //{
-        //    _context.Books.Update(book);
-        //    await _context.SaveChangesAsync() > 0;
-        //}
-
-        public ValueTask<bool> DeleteBookAsync(Guid bookId)
+        public async ValueTask<Book> UpdateBookByIdAsync(Guid bookId, Book bookUpdate)
         {
-            throw new NotImplementedException();
+            Book book = await _context.Books.Where(b => b.IsDeleted == false && b.IsPublished == true && b.BookId == bookId).FirstOrDefaultAsync();
+            book.Title = bookUpdate.Title;
+            book.TotalPages = bookUpdate.TotalPages;
+            book.Rating = bookUpdate.Rating;
+            await _context.SaveChangesAsync();
+            return book;
+        }
+
+        public async ValueTask<bool> DeleteBookByIdAsync(Guid bookId)
+        {
+            Book book = await _context.Books.Where(b => b.IsDeleted == false && b.IsPublished == true && b.BookId == bookId).FirstOrDefaultAsync();
+            book.IsDeleted = true;
+            return await _context.SaveChangesAsync() > 0;
         }
     }
 }
