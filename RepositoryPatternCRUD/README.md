@@ -13,8 +13,8 @@ A **Repository pattern** is a design pattern that mediates data from and to the 
 ## The used packages
 ```cs
 Microsoft.EntityFrameworkCore
-Microsoft.EntiryFrameworkCore.Design
-Microsoft.EntiryFrameworkCore.SqlSever
+Microsoft.EntityFrameworkCore.Design
+Microsoft.EntityFrameworkCore.SqlSever
 Microsoft.EntityFrameworkCore.Tools
 AutoMapper.Extensions.Microsoft.DependencyInjection
 Microsoft.AspNetCore.JsonPatch
@@ -29,7 +29,7 @@ Swashbuckle.AspNetCore.NewtonSoft
 
 Open the file `BookLibrary.sql` and run it to create the database for database-first
 
-### Go to EntityFrameworkDatabaseFirst project
+### Go to RepositoryPatternCRUD project
 Open `Package Manager Console` and run:
 >run
 ```sh

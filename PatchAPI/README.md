@@ -6,8 +6,8 @@
 ## The used packages
 ```cs
 Microsoft.EntityFrameworkCore
-Microsoft.EntiryFrameworkCore.Design
-Microsoft.EntiryFrameworkCore.SqlSever
+Microsoft.EntityFrameworkCore.Design
+Microsoft.EntityFrameworkCore.SqlSever
 Microsoft.EntityFrameworkCore.Tools
 AutoMapper.Extensions.Microsoft.DependencyInjection
 Microsoft.AspNetCore.JsonPatch
@@ -30,7 +30,7 @@ Swashbuckle.AspNetCore.NewtonSoft
 ```
 You need to add the `DefaultConnectionString` to the `appsettings.json` file in order to establish a connection with the `MSSQL Server` database for the project.
 
-### Go to EntityFrameworkDatabaseFirst project
+### Go to PatchAPI project
 Open `Package Manager Console` and run:
 >run
 ```sh

@@ -8,8 +8,8 @@
 
 ```cs
 Microsoft.EntityFrameworkCore
-Microsoft.EntiryFrameworkCore.Design
-Microsoft.EntiryFrameworkCore.SqlSever
+Microsoft.EntityFrameworkCore.Design
+Microsoft.EntityFrameworkCore.SqlSever
 Microsoft.EntityFrameworkCore.Tools
 ```
 

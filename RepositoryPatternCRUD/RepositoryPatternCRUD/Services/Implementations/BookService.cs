@@ -60,20 +60,15 @@ namespace RepositoryPatternCRUD.Services.Implementations
         }
         public async ValueTask<BookResponse> UpdateBookPatchByIdAsync(Guid bookId, JsonPatchDocument<BookRequest> bookPatch)
         {
-            
-
             var existingBook = await _bookRepository.GetBookByIdAsync(bookId);
             if (existingBook == null)
             {
                 throw new Exception("Book not found.");
             }
-
             var bookRequest = _mapper.Map<BookRequest>(existingBook);
             bookPatch.ApplyTo(bookRequest);
-
             _mapper.Map(bookRequest, existingBook);
             await _bookRepository.UpdateBookByIdAsync(bookId, existingBook);
-
             return _mapper.Map<BookResponse>(existingBook);
         }
 
