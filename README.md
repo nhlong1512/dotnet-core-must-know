@@ -9,7 +9,7 @@ This project aims to consolidate the fundamental knowledge required for a .NET C
     * [Entity Framework Database First](https://github.com/nhlong1512/dotnet-core-must-know/tree/main/EntityFrameworkDatabaseFirst)
     * [Entity Framework Code First](https://github.com/nhlong1512/dotnet-core-must-know/tree/main/EntityFrameworkCodeFirst)
     * [Send Email With MailKit](https://github.com/nhlong1512/dotnet-core-must-know/tree/main/SendEmail)
-    * [Authentication](https://github.com/nhlong1512/dotnet-core-must-know/tree/main/Authentication)
+    * [Authentication](https://github.com/nhlong1512/dotnet-core-must-know/tree/main/AuthenticationJWT)
     * [Enable CORS](https://github.com/nhlong1512/dotnet-core-must-know/tree/main/EnableCORS)
     * [Enable Rate Limiting](https://github.com/nhlong1512/dotnet-core-must-know/tree/main/EnableRateLimiting)
     * [Repository Pattern](https://github.com/nhlong1512/dotnet-core-must-know/tree/main/RepositoryPatternCRUD)
