@@ -7,15 +7,15 @@ namespace UploadFileAPI.Services.Implementations
 {
     public class FileService : IFileService
     {
-        private readonly string _storageAccount = "YourStorageAccount";
-        private readonly string _accessKey = "YourKey";
+        private readonly string _storageAccount = "netpokedexblobstorage";
+        private readonly string _accessKey = "UizHLDEFi0LDQ8Xo71RkYRn40FnSQKV/tyFuAn55oRXcNn/qCC5jsnue2ld4cd5mt2gTtofI9Z2l+AStZA2nQg==";
         private readonly BlobContainerClient _filesContainer;
         public FileService()
         {
             var credential = new StorageSharedKeyCredential(_storageAccount, _accessKey);
             var blobUri = $"https://{_storageAccount}.blob.core.windows.net";
             var blobServiceClient = new BlobServiceClient(new Uri(blobUri), credential);
-            _filesContainer = blobServiceClient.GetBlobContainerClient("YourNameContainer");
+            _filesContainer = blobServiceClient.GetBlobContainerClient("pokedexblobcontainer");
         }
 
         public async ValueTask<List<BlobDto>> GetAllFilesAsync()
